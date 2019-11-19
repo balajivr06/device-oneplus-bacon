@@ -52,8 +52,8 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_CMDLINE += androidboot.btmacaddr=00:00:00:00:00:00
 TARGET_KERNEL_CONFIG := fz_bacon_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-HyperTC-4.9/bin
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
+#KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-linux-eabi-HyperTC-4.9/bin
 
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
